@@ -1,0 +1,31 @@
+.trans {
+  transform: rotateX(90deg) !important;
+}
+
+main {
+  width: 100%;
+  background-color: gray;
+}
+main > div {
+  width: 550px;
+  height: 580px;
+  margin-top: 350px;
+  box-shadow: 2px 2px 30px rgb(226, 223, 223);
+}
+main .card {
+  background-image: url(./img/bg/2.jpeg);
+  width: 450px;
+}
+main .month,
+main .year,
+main .cvv {
+  height: 40px;
+}
+main .month,
+main .year {
+  margin-right: 30px;
+}
+main .back {
+  width: 450px;
+  opacity: 0;
+}/*# sourceMappingURL=Style.css.map */
